@@ -1,5 +1,53 @@
+/* RESET */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* Style */
+body {
+    background-color: #083b4c;
+}
+h1 {
+    text-align: center;
+    font-size: 8rem;
+    padding: 3rem 0;
+    color: white;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem 1rem;
+}
+.box {
+    width: calc(100% / 7 - 140px / 7);
+    height: 150px;
+    margin:0 20px 20px 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.fizz {
+    background-color: black;
+    color: white;
+    border: 5px solid white;
+}
+.buzz {
+    background-color: white;
+    color: black;
+    border: 5px solid black;
+}
+.fizz-buzz {
+    background-color: #f0466f;
+    color: white;
+    border: 5px solid white;
+}
+.number {
+    background-color:#1389b2;
+    color: black;
 }
